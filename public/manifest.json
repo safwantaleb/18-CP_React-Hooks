@@ -3,17 +3,17 @@
   "name": "Create React App Sample",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2e80767e-a234-406a-846f-f6c7d68d40e1/dcr8tfy-d2ee95f6-9006-49cb-a4ed-5e12c5bc6882.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMmU4MDc2N2UtYTIzNC00MDZhLTg0NmYtZjZjN2Q2OGQ0MGUxXC9kY3I4dGZ5LWQyZWU5NWY2LTkwMDYtNDljYi1hNGVkLTVlMTJjNWJjNjg4Mi5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ._w_reyXwjpdc8-d8H7fWoEdjXY5awP3uPOxeNLum_Qs",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2e80767e-a234-406a-846f-f6c7d68d40e1/dcr8tfy-d2ee95f6-9006-49cb-a4ed-5e12c5bc6882.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMmU4MDc2N2UtYTIzNC00MDZhLTg0NmYtZjZjN2Q2OGQ0MGUxXC9kY3I4dGZ5LWQyZWU5NWY2LTkwMDYtNDljYi1hNGVkLTVlMTJjNWJjNjg4Mi5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ._w_reyXwjpdc8-d8H7fWoEdjXY5awP3uPOxeNLum_Qs",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2e80767e-a234-406a-846f-f6c7d68d40e1/dcr8tfy-d2ee95f6-9006-49cb-a4ed-5e12c5bc6882.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMmU4MDc2N2UtYTIzNC00MDZhLTg0NmYtZjZjN2Q2OGQ0MGUxXC9kY3I4dGZ5LWQyZWU5NWY2LTkwMDYtNDljYi1hNGVkLTVlMTJjNWJjNjg4Mi5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ._w_reyXwjpdc8-d8H7fWoEdjXY5awP3uPOxeNLum_Qs",
       "type": "image/png",
       "sizes": "512x512"
     }

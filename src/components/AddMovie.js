@@ -49,6 +49,7 @@ export default function AddMovie({ onAdd }) {
             id="title"
             name="title"
             value={title}
+            required
             onChange={handleChange}
             label="title"
             type="text"
@@ -59,6 +60,7 @@ export default function AddMovie({ onAdd }) {
           <OutlinedInput
             id="description"
             value={description}
+            required
             onChange={handleChange}
             name="description"
             label="Description"
@@ -71,6 +73,7 @@ export default function AddMovie({ onAdd }) {
             type="text"
             id="posteUrl"
             value={posterUrl}
+            required
             name="posterUrl"
             onChange={handleChange}
             label="Poster"
@@ -81,6 +84,7 @@ export default function AddMovie({ onAdd }) {
           <OutlinedInput
             id="rating"
             value={rating}
+            required
             name="rating"
             type="number"
             onChange={handleChange}
@@ -93,6 +97,7 @@ export default function AddMovie({ onAdd }) {
             type="text"
             id="about"
             value={about}
+            required
             name="about"
             onChange={handleChange}
             label="About"

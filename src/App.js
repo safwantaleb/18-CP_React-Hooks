@@ -35,7 +35,10 @@ function App() {
           handleDelete={handleDelete}
         />
       </div>
-      <AddMovie onAdd={handleAddMovie} />
+      <div>
+        <h1>Add Movies</h1>
+        <AddMovie onAdd={handleAddMovie} />
+      </div>
     </div>
   );
 }

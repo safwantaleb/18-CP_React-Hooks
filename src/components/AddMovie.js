@@ -20,6 +20,7 @@ export default function AddMovie({ onAdd }) {
     description: "",
     posterUrl: "",
     rating: "",
+    about: "",
   });
   const classes = useStyles();
 
@@ -34,10 +35,11 @@ export default function AddMovie({ onAdd }) {
       description: "",
       posterUrl: "",
       rating: "",
+      about: "",
     });
   };
 
-  const { title, description, posterUrl, rating } = state;
+  const { title, description, posterUrl, rating, about } = state;
   return (
     <Card>
       <form className={classes.root} noValidate autoComplete="off">
@@ -83,6 +85,17 @@ export default function AddMovie({ onAdd }) {
             type="number"
             onChange={handleChange}
             label="Rating"
+          />
+        </FormControl>
+        <FormControl variant="outlined">
+          <InputLabel htmlFor="about">About</InputLabel>
+          <OutlinedInput
+            type="text"
+            id="about"
+            value={about}
+            name="about"
+            onChange={handleChange}
+            label="About"
           />
         </FormControl>
         <Button onClick={handleSubmit} variant="contained" color="primary">

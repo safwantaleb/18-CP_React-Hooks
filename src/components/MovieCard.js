@@ -25,9 +25,10 @@ export default function MovieCard({ movie, handleDelete }) {
   const classes = useStyles();
 
   return (
-    <Card className={classes.root}>
+    <Card className={classes.root} style={{ marginBottom: "30px" }}>
       <CardActionArea>
         <CardMedia
+          style={{ width: "100%", minWidth: "100%" }}
           className={classes.media}
           image={posterUrl}
           title="Contemplative Reptile"

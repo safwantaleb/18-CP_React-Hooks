@@ -41,7 +41,7 @@ export default function AddMovie({ onAdd }) {
 
   const { title, description, posterUrl, rating, about } = state;
   return (
-    <Card>
+    <Card style={{ marginBottom: "20px" }}>
       <form className={classes.root} noValidate autoComplete="off">
         <FormControl variant="outlined">
           <InputLabel htmlFor="title">Title</InputLabel>
@@ -107,6 +107,7 @@ export default function AddMovie({ onAdd }) {
           Submit
         </Button>
       </form>
+      
     </Card>
   );
 }

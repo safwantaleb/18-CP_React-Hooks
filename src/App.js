@@ -8,7 +8,7 @@ import MoviesSearch from "./components/MoviesSearch";
 function App() {
   const [movieList, setMovieList] = useState(movies);
   const [nameSearch, setNameSearch] = useState("");
-  const [ratingSearch, setRatingSearch] = useState(1);
+  const [ratingSearch, setRatingSearch] = useState("");
   const handleAddMovie = (movie) => {
     const newMovie = { ...movie, id: Math.random() };
     console.log("movie", newMovie);

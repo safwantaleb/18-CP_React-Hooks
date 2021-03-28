@@ -67,11 +67,10 @@ export default function MovieCard({ movie, handleDelete }) {
 }
 
 MovieCard.propTypes = {
-  movie: PropTypes.objectOf({
-    title: PropTypes.string,
-    description: PropTypes.string,
-    posterUrl: PropTypes.string,
-    rating: PropTypes.number,
-    handleDelete: PropTypes.func,
-  }),
+  movie: PropTypes.object,
+  title: PropTypes.string,
+  description: PropTypes.string,
+  posterUrl: PropTypes.string,
+  rating: PropTypes.number,
+  handleDelete: PropTypes.func,
 };

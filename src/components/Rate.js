@@ -6,13 +6,21 @@ const Rate = ({ rating, setRatingSearch }) => {
     for (let i = 1; i <= 5; i++) {
       if (i <= x) {
         starsArray.push(
-          <span key={i} onClick={() => setRatingSearch(i)}>
+          <span
+            style={{ color: "red", fontSize: "200%", cursor: "pointer" }}
+            key={i}
+            onClick={() => setRatingSearch(i)}
+          >
             ★
           </span>
         );
       } else {
         starsArray.push(
-          <span key={i} onClick={() => setRatingSearch(i)}>
+          <span
+            style={{ color: "red", fontSize: "200%", cursor: "pointer" }}
+            key={i}
+            onClick={() => setRatingSearch(i)}
+          >
             ☆
           </span>
         );
@@ -20,16 +28,12 @@ const Rate = ({ rating, setRatingSearch }) => {
     }
     return starsArray;
   };
-  return (
-    <div style={{ color: "red", fontSize: "32px", cursor: "pointer" }}>
-      {stars(rating)}
-    </div>
-  );
+  return <div>{stars(rating)}</div>;
 };
 
 Rate.defaultProps = {
   setRatingSearch: () => {},
-  rating: 1,
+  rating: 0,
 };
 
 export default Rate;

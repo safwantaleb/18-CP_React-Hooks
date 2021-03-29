@@ -65,15 +65,10 @@ export default function MovieCard({ movie, handleDelete }) {
           display: "flex",
           alignItems: "flex-end",
           justifyContent: "flex-start",
+          fontSize: "12px",
         }}
       >
-        <div
-          style={{
-            fontSize: "12px",
-          }}
-        >
-          <Rate rating={rating} />
-        </div>
+        <Rate rating={rating} />
       </div>
     </Card>
   );

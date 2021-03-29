@@ -8,7 +8,7 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import PropTypes from "prop-types";
-import ReactStars from "react-rating-stars-component";
+import Rate from "./Rate";
 
 const useStyles = makeStyles({
   root: {
@@ -42,7 +42,7 @@ export default function MovieCard({ movie, handleDelete }) {
           </Typography>
         </CardContent>
       </CardActionArea>
-      <CardActions>
+      <CardActions style={{ display: "flex", justifyContent: "space-around" }}>
         <Button
           onClick={() => window.open(about)}
           variant="contained"
@@ -60,8 +60,20 @@ export default function MovieCard({ movie, handleDelete }) {
           Delete
         </Button>
       </CardActions>
-      <div>
-        <ReactStars name="rate1" starCount={5} value={rating} />
+      <div
+        style={{
+          display: "flex",
+          alignItems: "flex-end",
+          justifyContent: "flex-start",
+        }}
+      >
+        <div
+          style={{
+            fontSize: "12px",
+          }}
+        >
+          <Rate rating={rating} />
+        </div>
       </div>
     </Card>
   );

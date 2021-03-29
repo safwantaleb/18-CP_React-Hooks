@@ -7,7 +7,11 @@ const Rate = ({ rating, setRatingSearch }) => {
       if (i <= x) {
         starsArray.push(
           <span
-            style={{ color: "red", fontSize: "200%", cursor: "pointer" }}
+            style={{
+              color: "rgb(190, 81, 81)",
+              fontSize: "200%",
+              cursor: "pointer",
+            }}
             key={i}
             onClick={() => setRatingSearch(i)}
           >
@@ -17,7 +21,11 @@ const Rate = ({ rating, setRatingSearch }) => {
       } else {
         starsArray.push(
           <span
-            style={{ color: "red", fontSize: "200%", cursor: "pointer" }}
+            style={{
+              color: "rgb(230, 98, 21)",
+              fontSize: "200%",
+              cursor: "pointer",
+            }}
             key={i}
             onClick={() => setRatingSearch(i)}
           >
